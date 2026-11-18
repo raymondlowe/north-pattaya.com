@@ -1,0 +1,7 @@
+_*
+*.ini
+
+
+_vti*
+desktop.ini
+__pycache__/
