@@ -386,6 +386,41 @@ body {
   box-shadow: var(--shadow-light);
 }
 
+/* ===== BODY PHOTOGRAPHS ===== */
+/* Estate figure convention: <figure class="articleImage"> with an
+   <img loading="lazy"> and an <figcaption class="articleCredit">. */
+.articleImage {
+  margin: 1.5rem auto;
+  max-width: var(--container-max-width);
+}
+
+.articleImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+}
+
+.articleImage figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--text-light);
+}
+
+.imageCredits {
+  list-style: disc;
+  margin: 0 0 1.5rem 1.25rem;
+  padding: 0;
+}
+
+.imageCredits li {
+  margin: 0.4rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
 /* ===== FOOTER ===== */
 .site-footer {
   background: var(--spain-black);
